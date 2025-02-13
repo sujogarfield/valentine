@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color:aliceblue
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(https://i.pinimg.com/736x/93/f0/9c/93f09c090890d87de1619ce9e7e7f5ec.jpg);
+}
+
+.popup {
+    background-color:lightpink;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button {
+    margin-left: 65%;
+    background-color: lightcoral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-color: aliceblue;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: pink;
+}
+
+.yes:active {
+    filter: grayscale(1);
+}
+
+fieldset {
+    background-color: rgb(255, 202, 210);
+}
+
+a {
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: pink;
+}
